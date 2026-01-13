@@ -3,47 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grace IEA - Sandbox</title>
+    <title>IEA | Integrated Evidence Analytics</title>
+    <link rel="icon" type="image/png" href="./grace-library-iea-integrated-evidence-analytics.png">
     <style>
-        body { margin: 0; font-family: Arial, sans-serif; background-color: #f4f4f4; }
-        
-        /* The Blue Bar you requested */
-        .sticky-header {
-            position: sticky;
-            top: 0;
-            background-color: #004a99; /* Professional Blue */
-            color: white;
-            padding: 15px;
-            text-align: center;
-            font-weight: bold;
-            font-size: 1.2rem;
-            z-index: 1000;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-        }
-
-        .content { padding: 20px; text-align: center; }
-        
-        .main-image {
-            width: 100%;
-            max-width: 600px;
-            border-radius: 8px;
-            margin-top: 20px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-        }
+        :root { --primary-blue: #003366; --accent-blue: #0056b3; --slate-bg: #f8f9fa; --text-main: #2c3e50; }
+        body { margin: 0; font-family: sans-serif; line-height: 1.6; background-color: var(--slate-bg); color: var(--text-main); }
+        .sticky-header { position: sticky; top: 0; background: linear-gradient(90deg, var(--primary-blue) 0%, var(--accent-blue) 100%); color: white; padding: 18px 20px; text-align: center; z-index: 1000; box-shadow: 0 4px 12px rgba(0,0,0,0.15); font-weight: 700; text-transform: uppercase; }
+        .content-wrapper { padding: 40px 20px; max-width: 900px; margin: 20px auto; background: #ffffff; border-radius: 12px; min-height: 150vh; }
+        .logo-container { text-align: center; margin-bottom: 30px; border-bottom: 2px solid #eee; padding-bottom: 20px; }
+        img { max-width: 250px; height: auto; }
+        h1 { color: var(--primary-blue); text-align: center; }
     </style>
 </head>
 <body>
-
-    <div class="sticky-header">
-        GRACE IEA - INTEGRATED EVIDENCE ANALYTICS
+    <div class="sticky-header">Grace Library &bull; Integrated Evidence Analytics</div>
+    <div class="content-wrapper">
+        <div class="logo-container"><img src="./grace-library-iea-integrated-evidence-analytics.png" alt="Logo"></div>
+        <h1 style="text-align:center;">Data Integration Portal</h1>
+        <p>Scroll down to verify sticky header.</p>
     </div>
-
-    <div class="content">
-        <h1>Sandbox Vault Prototype</h1>
-        <p>Password & Security Logic Active</p>
-        
-        <img src="grace-library-iea-integrated-evidence-analytics.png" alt="IEA Analytics" class="main-image">
-    </div>
-
 </body>
 </html>
